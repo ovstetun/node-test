@@ -4,7 +4,7 @@
  */
 
 var express = require('express')
-  , routes = require('./routes');
+  , routes = require('./lib/routes');
 
 var app = module.exports = express.createServer();
 
