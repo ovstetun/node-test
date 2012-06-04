@@ -11,5 +11,5 @@ buster.testCase('index', {
 
     assert.calledOnceWith(res.render, 'index', {title : 'Express'});
     refute.called(req);
-  },
+  }
 });
